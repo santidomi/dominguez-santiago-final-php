@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem 2rem 6rem;
+  background-color: var(--bg-color);
+  border-bottom: solid 1px #9c8c72;
+ nav ul {
+  display: flex;
+  gap: 1.9rem;
+}
+}
+
+.tituloPagina {
+  color: #3a68e8;
+  padding: 3px;
+  background-color: var(--bg-color);
+  padding: 2rem 6rem;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.34);
+  font-size: 22px;
+  font-weight: 100px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+
+.contacto {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+  color: #3a68e8;
+}
+
+.formulario {
+  width: 40%;
+}
+
+.formulario p {
+  display: block;
+  font-size: 15px;
+}
+
+.formulario p label {
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.formulario p input,
+.formulario p textarea {
+  width: 90%;
+  border: 1px solid #5b5b5b; 
+  font-size: 14px;
+  padding: 6px 10px;
+  color: #5b5b5b;
+}
+
+.formulario textarea {
+  resize: none;
+  height: 150px;
+}
+
+.formulario input[type="submit"], .formulario button[type="submit"] {
+  background: #9c8c72;
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+  width: auto;
+  left: 5rem;
+  cursor: pointer;
+  border-radius: 6px;
+  border: #9c8c72 solid 1px;
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: #9b742d;
+
+}
+.formulario button[type="submit"] {
+  padding: 12px 20px;
+}
+.formulario button[type="submit"]:hover{
+  background-color: #9b742d;
+}
+.boton{
+  padding-top: 2rem;
+}
+.tabla {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  margin-right: auto;
+}
+
+ 
+.boton_borrar {
+  color: #3a68e8;
+  background-color: white;
+  border: none;
+  padding-left: 10px;
+}
+
+.botonesEditar{
+  display: flex;
+ justify-content:center;
+ padding: 1rem;
+}
+
+thead {
+  color:  #3a68e8;
+}
+
+
+td {
+  text-align: center;
+  padding: 5px 0;
+}
+
+
+
+textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.editar{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
